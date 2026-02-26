@@ -117,8 +117,8 @@ local function createLoadingScreen()
             
             -- Exibe a notificação de boas-vindas
             StarterGui:SetCore("SendNotification", {
-                Title = "DR4V3X ON TOP",
-                Text = "مرحبا بكم في سكربت DR4V3X! ",
+                Title = "゠・_・゠ ON TOP",
+                Text = "مرحبا بكم في سكربت ゠・_・゠! ",
                 Duration = 5
             })
             
@@ -160,10 +160,10 @@ workspace.FallenPartsDestroyHeight = -math.huge
 
 
 local Window = Libary:MakeWindow({
-    Title = "DR4V3X HUB",
-    SubTitle = "        BROOKHAVEN RP| by DR4V3X",
-    LoadText = "Loading DR4V3X HUB",
-    Flags = "DR4V3XHUB_Broookhaven"
+    Title = "゠・_・゠ HUB",
+    SubTitle = "        BROOKHAVEN RP| by ゠・_・゠",
+    LoadText = "Loading ゠・_・゠ HUB",
+    Flags = "゠・_・゠HUB_Broookhaven"
 })
 
 
@@ -896,7 +896,7 @@ local function ChangeCarSpeedAndTurbo(speedValue, turboValue)
             body.Turbo.Value = turboValue
             wait(0.1)
             redzlib:MakeNotification({
-                Name = "DR4V3X HUB",
+                Name = "゠・_・゠ HUB",
                 Content = "Done, You can Move Now!",
                 Time = 5
             })
@@ -1246,7 +1246,7 @@ ddnsfbfwewefe.BorderSizePixel = 0
 ddnsfbfwewefe.Position = UDim2.new(-0.000210968778, 0, -0.00395679474, 0)
 ddnsfbfwewefe.Size = UDim2.new(0, 237, 0, 27)
 ddnsfbfwewefe.Font = Enum.Font.SourceSans
-ddnsfbfwewefe.Text = "الصانع: DR4V3X"
+ddnsfbfwewefe.Text = "الصانع: ゠・_・゠"
 ddnsfbfwewefe.TextColor3 = Color3.fromRGB(255, 255, 255)
 ddnsfbfwewefe.TextScaled = true
 ddnsfbfwewefe.TextSize = 14.000
@@ -7760,7 +7760,7 @@ Label.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Label.BorderSizePixel = 0
 Label.Size = UDim2.new(1, 0, 0.160583943, 0)
 Label.FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-Label.Text = "سحب الاشياء | Made by: DR4V3X"
+Label.Text = "سحب الاشياء | Made by: ゠・_・゠"
 Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 Label.TextScaled = true
 Label.TextSize = 14.000
@@ -8144,10 +8144,10 @@ Tab:AddToggle({
 })
 
 Tab:AddButton({
-    Name = "سبام شات Hacked By DR4V3X HUB",
+    Name = "سبام شات Hacked By ゠・_・゠ HUB",
     Callback = function()
         if game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then 
-            game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("msg\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\rServer: Hacked By DR4V3X HUB")
+            game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("msg\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\rServer: Hacked By ゠・_・゠ HUB")
         else 
             print("Nadaa")
     end
