@@ -14,17 +14,6 @@ local Window = redzlib:MakeWindow({
     Flags = "゠・_・゠HUB_Broookhaven"
 })
 
-Window:AddMinimizeButton({
-  Button = {
-    Image = "rbxassetid://77996083279350"
-  },
-  UICorner = {true,
-    CornerRadius = UDim.new(0.5, 0)
-  },
-  UIStroke = {false, {
-  }}
-})
-
 local Tab = Window:MakeTab({"الاغاني", Icon = "listmusic"})
 
 Tab:AddTextBox({
